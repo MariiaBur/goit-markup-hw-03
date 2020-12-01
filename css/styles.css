@@ -1,0 +1,194 @@
+/*-----Components----*/
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+/*-----Site Nav-----*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.logo-accent {
+  color: #2196f3;
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: #2196f3;
+}
+
+.nav-list-item .current {
+  color: #2196f3;
+}
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
+}
+/*-----End Site Nav-----*/
+
+/*--------Hero--------*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/*--------End Hero--------*/
+
+/*--------Competencies--------*/
+.quality-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.quality-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*--------End Competencies--------*/
+
+/*--------What are we doing--------*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+/*--------End What are we doing--------*/
+
+/*--------Our team--------*/
+.team-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.team-item-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*--------End Our team--------*/
+
+/*--------Footer--------*/
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-alt {
+  color: #ffffff;
+}
+.contact-footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-footer-link:hover,
+.contact-footer-link:focus {
+  color: rgba(255, 255, 255, 0.8);
+}
+.address-footer > .contact-footer-link {
+  color: #ffffff;
+}
+/*--------End Footer--------*/
+
+/*--------Portfolio_html--------*/
+
+/*--------Filters--------*/
+.filters-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  background-color: #f5f4f4;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/*--------End Filters--------*/
+
+/*--------List of projects--------*/
+.projects-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.filter-item {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
