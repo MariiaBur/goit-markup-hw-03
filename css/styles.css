@@ -11,8 +11,6 @@ body {
 
 .list {
   list-style: none;
-  /* padding: 0;
-  margin: 0; */
 }
 
 h1,
@@ -106,6 +104,7 @@ img {
 
 .contact {
   display: flex;
+  align-items: center;
 }
 
 .address {
@@ -281,7 +280,7 @@ img {
 .team-item-position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -295,6 +294,24 @@ img {
 
 .footer {
   background-color: #2f303a;
+}
+
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  margin-bottom: 20px;
+  display: inline-block;
 }
 
 .logo-alt {
@@ -317,8 +334,13 @@ img {
 
 .address-footer > .contact-footer-link {
   color: #ffffff;
+  display: inline-block;
+  margin-bottom: 9px;
 }
-
+.contacts-footer-list > .contact-footer-link {
+  display: inline-block;
+  margin-bottom: 9px;
+}
 /*--------End Footer--------*/
 
 /*--------Portfolio_html--------*/
@@ -344,7 +366,6 @@ img {
 /*--------End Filters--------*/
 
 /*--------List of projects--------*/
-
 .projects-name {
   font-weight: 700;
   font-size: 18px;
@@ -354,7 +375,7 @@ img {
   color: #212121;
 }
 
-.filter-item {
+.filters-btn {
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
@@ -362,4 +383,12 @@ img {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+/* Filters buton */
+.filters-list-btn {
+  display: flex;
+}
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
 }
