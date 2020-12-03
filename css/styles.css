@@ -132,10 +132,8 @@ img {
 .hero {
   background-color: #2f303a;
   text-align: center;
-}
-
-.hero .container {
-  padding: 200px 285px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -170,6 +168,11 @@ img {
 /*--------End Hero--------*/
 
 /*--------Competencies--------*/
+.quality {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .quality-list {
   display: flex;
 }
@@ -177,8 +180,6 @@ img {
 .quality-list-item {
   margin-right: 30px;
   width: 270px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .quality-list-item:nth-child(4n) {
@@ -293,9 +294,6 @@ img {
 
 .footer {
   background-color: #2f303a;
-}
-
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -346,7 +344,8 @@ img {
 
 /*--------Projects--------*/
 .header-portfolio {
-  margin-bottom: 119px;
+  margin-bottom: 94px;
+  border-bottom: 1px solid #ececec;
 }
 .filters-btn {
   font-weight: 500;
@@ -399,19 +398,19 @@ img {
   justify-content: center;
 }
 
-.projects-list {
+.container .projects-list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.projects-list-item {
+.projects-list .projects-list-item {
   min-width: 370px;
-
+  box-sizing: border-box;
   margin-right: 30px;
   margin-bottom: 30px;
+
   background-color: #fff;
 }
-
 .projects-list-item:nth-child(3n) {
   margin-right: 0;
 }
@@ -420,6 +419,9 @@ img {
   margin-bottom: 94px;
 }
 
-.projects-list-photo {
-  margin-bottom: 20px;
+.projects-name-decor {
+  border-bottom: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  padding: 20px 24px;
 }
